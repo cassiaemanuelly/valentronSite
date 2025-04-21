@@ -1,36 +1,36 @@
-# Valentron – Landing Page | Robocup Next 2025
+# 🤖 Valentron – Landing Page | Robocup Next 2025
 
-## Descrição
+## 🧾 Descrição
 
 Este projeto é uma landing page desenvolvida para apresentar o robô **Valentron**, criado pela equipe **CyberSquad** para o evento **Robocup – Next 2025**.
 
-A página foi desenvolvida com HTML, CSS e Bootstrap 5, respeitando os critérios obrigatórios do Sprint 3. Contempla seções sobre o robô, imagens, vídeos, funcionamento do sistema de armas, hardware utilizado e apresentação da equipe.
+A página foi desenvolvida com HTML, CSS e Bootstrap 5, respeitando os critérios obrigatórios do desafio. Contempla seções sobre o robô, imagens, vídeos, funcionamento do sistema de armas, hardware utilizado e apresentação da equipe.
 
 ---
 
-## Funcionalidades Entregues
+## ✅ Funcionalidades Entregues
 
-- **Menu de navegação funcional** com rolagem suave entre seções da mesma página
-- **Apresentação do robô** com storytelling sobre o projeto
-- **Carousel com 5 imagens do robô** utilizando componente do Bootstrap
-- **Seção do sistema de armas** com explicação clara e objetiva
-- **Seção de hardware** com descrição dos principais componentes
-- **02 vídeos hospedados no YouTube**:
+- 🔗 **Menu de navegação funcional** com rolagem suave entre seções da mesma página
+- 🤖 **Apresentação do robô** com storytelling sobre o projeto
+- 🖼️ **Carousel com 5 imagens do robô** utilizando componente do Bootstrap
+- 💥 **Seção do sistema de armas** com explicação clara e objetiva
+- 💻 **Seção de hardware** com descrição dos principais componentes
+- 🎥 **02 vídeos hospedados no YouTube**:
   - Vídeo 1: Construção do robô
   - Vídeo 2: Robô em movimento, controlado por celular
-- **Responsividade completa**: compatível com celular, tablet, notebook e desktop
-- **Uso dos componentes obrigatórios do Bootstrap**:
+- 📱 **Responsividade completa**: compatível com celular, tablet, notebook e desktop
+- 🧩 **Uso dos componentes obrigatórios do Bootstrap**:
   - Navbar
   - Carousel
   - Cards
   - Accordion
   - Ratio (para vídeos)
   - Sistema de Grid
-- **Código limpo e semântico** com uso adequado de `section`, `header`, `footer`, etc.
+- 🧱 **Código limpo e semântico** com uso adequado de `section`, `header`, `footer`, etc.
 
 ---
 
-## Estrutura de Pastas
+## 🗂️ Estrutura de Pastas
 Valentron/
 ├── css/
 │   └── style.css
@@ -46,23 +46,23 @@ Valentron/
 
 ---
 
-## Links dos Vídeos
+## 📺 Links dos Vídeos
 
-- [Construção do Valentron](https://www.youtube.com/watch?v=Mxrc2rckKGo)
-- [Valentron em movimento (controle por celular)](https://www.youtube.com/watch?v=8sGVVFNdZWg)
+- [📹 Construção do Valentron](https://www.youtube.com/watch?v=Mxrc2rckKGo)
+- [📹 Valentron em movimento (controle por celular)](https://www.youtube.com/watch?v=8sGVVFNdZWg)
 
 ---
 
-## Equipe CyberSquad
+## 👥 Equipe CyberSquad
 
 - Cassia Emanuelly Dantas da Silva – RM 561073
 - Guilherme Alves Dabul – RM 559901
 - Pedro Chamusca de Mello – RM 559632
-- Peddro Henrique Batista Ferrari – RM 559912
+- Pedro Henrique Batista Ferrari – RM 559912
 
 ---
 
-## Como visualizar o projeto
+## 🚀 Como visualizar o projeto
 
 1. Faça o download do arquivo `Valentron.zip`
 2. Extraia o conteúdo em uma pasta local
@@ -70,9 +70,9 @@ Valentron/
 
 ---
 
-### Observação
+### 📌 Observação
 
-Entrega realizada conforme os critérios exigidos para o Sprint 3 da Disciplina de Web Standards: Front End Developer, do Professor Israel Marques Cajaí Junior: 
+Entrega realizada conforme os critérios exigidos no desafio Robocup – Challenge FIAP:
 
 - Menu funcional ✔️  
 - Conteúdo real e sem *Lorem Ipsum* ✔️  
@@ -82,6 +82,4 @@ Entrega realizada conforme os critérios exigidos para o Sprint 3 da Disciplina 
 
 ---
 
-**Desenvolvido com dedicação pela equipe CyberSquad da turma 1SIZ da FIAP**
-
-
+**Desenvolvido com dedicação pela equipe CyberSquad 💙**
