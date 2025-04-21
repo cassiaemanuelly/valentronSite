@@ -1,0 +1,88 @@
+:root {
+    --color-dark: #180910;
+    --color-light: #ffffff;
+    --color-accent: #f36c2d;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-quicksand: 'Quicksand', sans-serif;
+}
+
+body {
+    padding-top: 74px;
+    font-family: var(--font-poppins);
+}
+
+.bg-color-dark {
+    background-color: var(--color-dark) !important;
+}
+
+.hero {
+    min-height: calc(100vh - 74px);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../images/backgroung_hero.JPG') center/cover no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--color-light) !important;
+}
+
+.nav-item .nav-link {
+    color: var(--color-light) !important;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--color-accent) !important;
+}
+
+.btn-outline-light {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    border: 2px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: transparent;
+    color: var(--color-light);
+    border-color: (var(--color-light));
+}
+
+.section-divider-top {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-footer.border-top {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.carousel-inner {
+    aspect-ratio: 5 / 4;
+    /* largura 5, altura 4 */
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section#carousel {
+    scroll-margin-top: 90px;
+}

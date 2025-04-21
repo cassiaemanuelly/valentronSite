@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>VALENTRON</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-color-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-light fs-2" href="#">VALENTRON</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-light" href="#intro">Início</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#robo">Robô</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#arma">Arma</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#hardware">Hardware</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Galeria</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#carousel">Imagens</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#videos">Vídeos</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">CyberSquad</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#equipe">Quem somos?</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#equipe">Nosso diferencial</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#equipe">Seja Sócio</a></li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introdução do site -->
+    <section id="intro" class="hero">
+        <div class="container text-start">
+            <h1 class="fw-bold display-3">O Valentron</h1>
+            <p class="lead">Bem-vindo ao desafio onde criatividade, estratégia e tecnologia se unem para criar algo
+                extraordinário.</br>
+                O Valentron não é apenas um robô; ele é o símbolo da nossa dedicação e inovação.</p>
+            <a href="#robo" class="btn btn-outline-light btn-lg">Conheça mais</a>
+        </div>
+    </section>
+
+    <!-- Robo -->
+    <section id="robo" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h1 class="fw-bold">Robô</h1>
+                    <p>
+                        O Valentron é a personificação da inovação. <br><br>
+                        Criado para a Robocup, ele alia força, precisão e inteligência. Seu desenvolvimento reflete o
+                        comprometimento da equipe com excelência e tecnologia de ponta, sendo o resultado de anos de
+                        dedicação.<br><br>
+                        Ele é um robô articulado sobre rodas desenvolvido por nossa equipe para participar do Projeto
+                        RF21, uma competição que reúne mais de 60 equipes do 1º ano do curso de Sistemas de Informação
+                        da FIAP.<br><br>
+                        Projetado para se destacar tanto em criatividade quanto em desempenho, o Valentron é equipado
+                        com controle via módulo Bluetooth, acionado pelo celular, e uma estrutura otimizada para
+                        transportar uma bexiga enquanto manobra habilmente no campo de batalha. Além disso, ele conta
+                        com uma arma estrategicamente projetada e controlada por um Arduino Mega, capaz de defender sua
+                        bexiga e eliminar os adversários.
+                    </p>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <img src="images/robo.png" alt="Imagem do Robô Valentron" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Arma -->
+    <section id="arma" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-start">
+                    <h1 class="fw-bold">Sistema de Arma</h1>
+                    <p>
+                        A arma seguirá um design de saída direta, com a base localizada no centro do robô para
+                        proporcionar equilíbrio e agilidade no ataque.<br><br>
+                        A ideia é utilizar um motor central que acionará uma haste com agulhas estrategicamente
+                        posicionadas para estourar os balões adversários com precisão<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardware -->
+    <section id="hardware" class="py-5 bg-color-dark text-light section-divider-top">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h1 class="fw-bold">Hardware</h1>
+                <p class="mb-0">
+                    Abaixo, descrevemos alguns dos principais componentes de hardware utilizados na construção do
+                    Valentron.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 bg-white text-dark border-0">
+                        <div class="card-header fw-bold bg-white border-0">Arduíno</div>
+                        <div class="card-body">
+                            <p class="card-text">Microcontrolador central responsável por coordenar os sistemas do robô.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 border-top pt-3 text-muted">
+                            Controle principal
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 bg-white text-dark border-0">
+                        <div class="card-header fw-bold bg-white border-0">Driver de motor, armas e LEDs</div>
+                        <div class="card-body">
+                            <p class="card-text"> Gerencia o fornecimento de energia e os sinais de controle para os
+                                motores, a arma e os LEDs, garantindo operação estável e segura.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 border-top pt-3 text-muted">
+                            Interface de potência
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 bg-white text-dark border-0">
+                        <div class="card-header fw-bold bg-white border-0">Protoboard</div>
+                        <div class="card-body">
+                            <p class="card-text">Placa de contato que permite realizar conexões rápidas entre
+                                componentes sem necessidade de solda, facilitando testes e ajustes.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 border-top pt-3 text-muted">
+                            Montagem rápida
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 bg-white text-dark border-0">
+                        <div class="card-header fw-bold bg-white border-0">Soquete de pilhas</div>
+                        <div class="card-body">
+                            <p class="card-text">Suporte para pilhas que alimenta todo o sistema elétrico do robô,
+                                garantindo autonomia de operação.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 border-top pt-3 text-muted">
+                            Fonte de energia
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 bg-white text-dark border-0">
+                        <div class="card-header fw-bold bg-white border-0">LED RGB</div>
+                        <div class="card-body">
+                            <p class="card-text">Permite sinalização visual com múltiplas cores para identificar ações e
+                                criar efeitos visuais programáveis.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 border-top pt-3 text-muted">
+                            Sinalização
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 bg-white text-dark border-0">
+                        <div class="card-header fw-bold bg-white border-0">Módulo Bluetooth</div>
+                        <div class="card-body">
+                            <p class="card-text">Dispositivo sem fio que permite o controle remoto do Valentron através
+                                de conexão com celular ou outro equipamento compatível.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 border-top pt-3 text-muted">
+                            Comunicação sem fio
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="carousel" class="py-5 bg-color-dark text-light">
+        <div class="container">
+
+            <div class="text-center mb-4">
+                <h1 class="fw-bold mb-3">Galeria</h1>
+                <h2 class="fw-semibold mt-3">Imagens Valentron</h2>
+            </div>
+
+            <div id="valentronCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#valentronCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#valentronCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#valentronCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#valentronCarousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#valentronCarousel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/carousel_1.jpeg" class="d-block w-100"
+                            alt="Imagem do Valentro - Robo azul e preto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel_2.jpeg" class="d-block w-100"
+                            alt="Imagem 2 do Valentro - Robo azul e preto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel_3.jpeg" class="d-block w-100"
+                            alt="Imagem 3 do Valentro - Robo azul e preto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel_4.jpeg" class="d-block w-100"
+                            alt="Imagem 4 do Valentro - Robo azul e preto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel_5.jpeg" class="d-block w-100"
+                            alt="Imagem 5 do Valentro - Robo azul e preto">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#valentronCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#valentronCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+            <div id="videos" class="text-center mt-5 mb-4" style="scroll-margin-top: 90px;">
+                <h2 class="fw-bold">Vídeos Valentron</h2>
+                <p class="fs-5 text-light">Assista à construção e testes do nosso robô</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/Mxrc2rckKGo?si=hm0_0X9bb4h1g5_G"
+                            title="Construção do Valentron" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/8sGVVFNdZWg?si=-zOReO9yKrApRnR_"
+                            title="Movimento do Valentron" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cybersquad -->
+    <section id="equipe" class="py-5 bg-white text-dark" style="scroll-margin-top: 90px;">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h1 class="fw-bold">CyberSquad</h1>
+                <p class="fs-5">Conheça nossa equipe e o que nos torna únicos</p>
+            </div>
+
+            <div class="accordion" id="accordionCyberSquad">
+
+                <div class="accordion-item" id="equipe">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Quem Somos?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionCyberSquad">
+                        <div class="accordion-body">
+                            <p>Somos uma equipe de quatro integrantes altamente comprometidos com o desenvolvimento do
+                                nosso robô e sempre e busca da excelência.</p>
+                            <p>Unimos esforço, planejamento e atenção aos detalhes, que fazem toda a diferença no
+                                projeto.</p>
+                            <p>Unimos esforço, planejamento e atenção aos detalhes, que fazem toda a diferença no
+                                projeto. Nosso objetivo é criar um robô eficiente, resistente e pronto para encarar
+                                qualquer desafio nas arenas.</p>
+                            <p>Estamos totalmente dedicados a transformar essa ideia em uma referência no Next 2025,
+                                mostrando a força do nosso trabalho em cada batalha e levando nosso nome ainda mais
+                                longe.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="diferencial" class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Nosso diferencial
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionCyberSquad">
+                        <div class="accordion-body">
+                            <p>1. Estrutura Resiliente <br>
+                                Com uma estrutura de MDF reforçada, garantimos alta resistência e capacidade de absorção
+                                de impactos, mantendo o robô funcional e performando de forma excepcional, mesmo nas
+                                batalhas mais intensas.</p>
+                            <p>2. Armamento Estratégico <br>
+                                Equipado com sensores de proximidade em suas extremidades, nosso robô escolhe o melhor
+                                momento para atacar, defender e contra-atacar, se comportando como um verdadeiro
+                                estrategista nas arenas.</p>
+                            <p>3. Força e Agilidade em Harmonia <br>
+                                Projetado para ser tanto leve quanto forte, nosso robô combina resistência e agilidade,
+                                absorvendo impactos pesados sem perder velocidade, dominando os desafios com precisão e
+                                eficácia.</p>
+                            <p>4. Controle Perfeito <br>
+                                Com um sistema de controle altamente preciso, nosso robô responde instantaneamente a
+                                cada comando, criando uma sinergia perfeita entre piloto e máquina, garantindo uma
+                                performance imbatível.</p>
+                            <p>5. Arena Encantadora <br>
+                                Nosso robô não apenas luta, ele encanta! Equipado com LEDs na parte inferior, transforma
+                                cada batalha em um espetáculo visual, tornando a experiência inesquecível para o público
+                                e elevando o entretenimento a outro nível.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="socio" class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Seja Sócio
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionCyberSquad">
+                        <div class="accordion-body">
+                            <p>Estamos em busca de investidores que compartilhem nossa dedicação e paixão pela inivação.
+                            </p>
+                            <p>Com sua parceria, podemos transformar este projeto em um referência no campo da robótica,
+                                destacando-nos como uma equipe acadêmica e contribuindo para o desenvolvimento da
+                                robótica competitiva. Venha fazer parte dessa jornada conosco</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="bg-color-dark text-light pt-5 pb-4">
+        <div class="container">
+
+            <div class="row g-5">
+
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Valentron</h5>
+                    <p>O Valentron é mais do que um robô — é símbolo de inovação, tecnologia e trabalho em equipe.
+                        Desenvolvido por alunos apaixonados por desafio.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#intro" class="text-light text-decoration-none">Início</a></li>
+                        <li><a href="#robo" class="text-light text-decoration-none">Robô</a></li>
+                        <li><a href="#hardware" class="text-light text-decoration-none">Hardware</a></li>
+                        <li><a href="#carousel" class="text-light text-decoration-none">Galeria</a></li>
+                        <li><a href="#equipe" class="text-light text-decoration-none">CyberSquad</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Entre em contato ou seja sócio</h5>
+                    <form>
+                        <div class="mb-2">
+                            <input type="text" class="form-control" placeholder="Seu nome" required>
+                        </div>
+                        <div class="mb-2">
+                            <input type="email" class="form-control" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="mb-2">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-light w-100">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="row mt-5 border-top pt-3">
+                <div class="col text-center">
+                    <p class="mb-0">© 2025 Valentron. Todos os direitos reservados.</p>
+                    <small>Desenvolvido por CyberSquad | FIAP</small>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Obs: Esse trecho de JavaScrip não foi ensinado em aula, mas precisei pesquisar por fora para adicionar, para resolver o problema da navbar ficando acima do conteúdo da seção depois do clique na opção de menu
+        document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    const offset = 74; // altura da navbar
+                    const elementPosition = targetElement.offsetTop;
+                    const offsetPosition = elementPosition - offset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
