@@ -86,3 +86,21 @@ body {
 section#carousel {
     scroll-margin-top: 90px;
 }
+
+section#graficos {
+    scroll-margin-top: 90px;
+}
+
+#graficos img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+}
+
+#graficos img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+}
