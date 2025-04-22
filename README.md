@@ -33,15 +33,25 @@ A página foi desenvolvida com HTML, CSS e Bootstrap 5, respeitando os critério
 ## 🗂️ Estrutura de Pastas
 Valentron/
 ├── css/
+
 │   └── style.css
+
 ├── images/
+
 │   └── carousel_1.jpeg
+
 │   └── carousel_2.jpeg
+
 │   └── carousel_3.jpeg
+
 │   └── carousel_4.jpeg
+
 │   └── carousel_5.jpeg
+
 ├── index.html
+
 └── README.md
+
 
 
 ---
