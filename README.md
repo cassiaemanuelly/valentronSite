@@ -32,6 +32,7 @@ A página foi desenvolvida com HTML, CSS e Bootstrap 5, respeitando os critério
 
 ## 🗂️ Estrutura de Pastas
 Valentron/
+
 ├── css/
 
 │   └── style.css
