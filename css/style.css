@@ -105,12 +105,12 @@ section#graficos {
     box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
 }
 
-.btn-valentron {
-  background-color: var(--color-dark);
-  color: white;
-  border: none;
+a.btn.btn-valentron {
+  background-color: var(--color-dark) !important;
+  color: white !important;
+  border: none !important;
 }
 
-.btn-valentron:hover {
-  background-color: #e14c2d;
+a.btn.btn-valentron:hover {
+  background-color: #e14c2d !important;
 }
